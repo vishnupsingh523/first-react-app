@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar.js';
 
 function App() {
   return (
       <div className="blank">
-        <h1>Hii this is vishwanath Pratap Singh</h1>
+        <Navbar title1="Home" title2="About Us" title3="Login/SignUp"/>
+
       </div>
   );
 }
